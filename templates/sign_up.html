@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+
+	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+		<div class="container-fluid">
+		
+				<form method="post">
+					<div class="row mb-3 justify-content-center">
+						<div class="col">
+							<input type="text" name="username" required minlength="4" class="form-control-lg" placeholder="Username">
+						</div>
+					</div>
+
+					<div class="row mb-3">
+						<div class="col">
+							<input type="password" required minlength="6" name="password" class="form-control-lg" placeholder="Password">
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary">Sign Up</button>
+				</form>
+
+		</div>
+</body>
+</html>
