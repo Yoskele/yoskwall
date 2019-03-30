@@ -1,3 +1,18 @@
-.container-fluid{
-	margin-left: 400px;
+body{
+	background-color:black;
+}
+.navbar{
+	background-color:#FF4500;
+	border-radius:3px;
+}
+
+
+/* Login Page */ 
+
+.container{
+	margin-left:550px;
+}
+
+.create{
+	margin-left:60px;
 }

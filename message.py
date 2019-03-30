@@ -27,5 +27,14 @@ class Message():
     return messages
 
 
-  def close(self):
-    self.connection.close()
+  def delete(self):
+    query = 'DELETE from messages WHERE username = "admin"'
+    self.cursor.execute(query)
+    self.connection.commit()
+
+
+
+#  def close(self):
+#    self.connection.close()
+
+
