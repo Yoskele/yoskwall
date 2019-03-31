@@ -34,7 +34,4 @@ class Message():
 
 
 
-#  def close(self):
-#    self.connection.close()
-
 
